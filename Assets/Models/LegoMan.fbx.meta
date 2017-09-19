@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: f61b6971e3f75b2489209a4f05e8f928
+timeCreated: 1496575063
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone
+    100002: Chest
+    100004: FacePane
+    100006: Head
+    100008: Head_end
+    100010: Hip
+    100012: Leg.L
+    100014: Leg.L_end
+    100016: Leg.R
+    100018: Leg.R_end
+    100020: LegoChar
+    100022: //RootNode
+    100024: LowerArm.L
+    100026: LowerArm.L_end
+    100028: LowerArm.R
+    100030: LowerArm.R_end
+    100032: Rig
+    100034: UpperArm.L
+    100036: UpperArm.R
+    400000: Bone
+    400002: Chest
+    400004: FacePane
+    400006: Head
+    400008: Head_end
+    400010: Hip
+    400012: Leg.L
+    400014: Leg.L_end
+    400016: Leg.R
+    400018: Leg.R_end
+    400020: LegoChar
+    400022: //RootNode
+    400024: LowerArm.L
+    400026: LowerArm.L_end
+    400028: LowerArm.R
+    400030: LowerArm.R_end
+    400032: Rig
+    400034: UpperArm.L
+    400036: UpperArm.R
+    4300000: FacePane
+    4300002: LegoChar
+    7400000: Rig|Idle
+    7400002: Rig|Run
+    9500000: //RootNode
+    13700000: FacePane
+    13700002: LegoChar
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Rig|Idle
+      takeName: Rig|Idle
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FacePane
+        weight: 1
+      - path: LegoChar
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/Bone
+        weight: 1
+      - path: Rig/Bone/Hip
+        weight: 1
+      - path: Rig/Bone/Hip/Chest
+        weight: 1
+      - path: Rig/Bone/Hip/Chest/Head
+        weight: 1
+      - path: Rig/Bone/Hip/Chest/Head/Head_end
+        weight: 1
+      - path: Rig/Bone/Hip/Chest/UpperArm.L
+        weight: 1
+      - path: Rig/Bone/Hip/Chest/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Rig/Bone/Hip/Chest/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Rig/Bone/Hip/Chest/UpperArm.R
+        weight: 1
+      - path: Rig/Bone/Hip/Chest/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Rig/Bone/Hip/Chest/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Rig/Bone/Hip/Leg.L
+        weight: 1
+      - path: Rig/Bone/Hip/Leg.L/Leg.L_end
+        weight: 1
+      - path: Rig/Bone/Hip/Leg.R
+        weight: 1
+      - path: Rig/Bone/Hip/Leg.R/Leg.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rig|Run
+      takeName: Rig|Run
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FacePane
+        weight: 1
+      - path: LegoChar
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/Bone
+        weight: 1
+      - path: Rig/Bone/Hip
+        weight: 1
+      - path: Rig/Bone/Hip/Chest
+        weight: 1
+      - path: Rig/Bone/Hip/Chest/Head
+        weight: 1
+      - path: Rig/Bone/Hip/Chest/Head/Head_end
+        weight: 1
+      - path: Rig/Bone/Hip/Chest/UpperArm.L
+        weight: 1
+      - path: Rig/Bone/Hip/Chest/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Rig/Bone/Hip/Chest/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Rig/Bone/Hip/Chest/UpperArm.R
+        weight: 1
+      - path: Rig/Bone/Hip/Chest/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Rig/Bone/Hip/Chest/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Rig/Bone/Hip/Leg.L
+        weight: 1
+      - path: Rig/Bone/Hip/Leg.L/Leg.L_end
+        weight: 1
+      - path: Rig/Bone/Hip/Leg.R
+        weight: 1
+      - path: Rig/Bone/Hip/Leg.R/Leg.R_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Bone
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
